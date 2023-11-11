@@ -1,0 +1,13 @@
+As per the demo video Angular CLI is installed as:-
+
+Angular CLI : 15.0.3
+Node : 18.10.0
+Package Manager : npm 8.19.2
+OS: darwin arm64
+
+
+In My system i have installed is :-
+Angular CLI: 15.2.10
+Node: 18.10.0
+Package Manager: npm 8.19.2
+OS: win32 x64

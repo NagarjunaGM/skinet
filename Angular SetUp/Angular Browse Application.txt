@@ -1,0 +1,19 @@
+PS C:\Users\gvs\Desktop\skinet> cd client
+PS C:\Users\gvs\Desktop\skinet\client> ng serve
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files   | Names         |  Raw Size
+vendor.js             | vendor        |   2.04 MB | 
+polyfills.js          | polyfills     | 314.82 kB | 
+styles.css, styles.js | styles        | 210.41 kB | 
+main.js               | main          |  48.73 kB | 
+runtime.js            | runtime       |   6.51 kB | 
+
+                      | Initial Total |   2.61 MB
+
+Build at: 2023-10-31T09:14:17.923Z - Hash: 5ae1c6a9afd8d951 - Time: 45628ms
+
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+
+
+√ Compiled successfully.

@@ -1,0 +1,28 @@
+PS C:\Users\gvs\Desktop\skinet> ng new client
+? Would you like to add Angular routing? Yes
+? Which stylesheet format would you like to use? SCSS   [ https://sass-lang.com/documentation/syntax#scss                ]
+CREATE client/angular.json (2874 bytes)
+CREATE client/package.json (1039 bytes)
+CREATE client/README.md (1061 bytes)
+CREATE client/tsconfig.json (901 bytes)
+CREATE client/.editorconfig (274 bytes)
+CREATE client/.gitignore (548 bytes)
+CREATE client/tsconfig.app.json (263 bytes)
+CREATE client/tsconfig.spec.json (273 bytes)
+CREATE client/.vscode/extensions.json (130 bytes)
+CREATE client/.vscode/launch.json (470 bytes)
+CREATE client/.vscode/tasks.json (938 bytes)
+CREATE client/src/favicon.ico (948 bytes)
+CREATE client/src/index.html (292 bytes)
+CREATE client/src/main.ts (214 bytes)
+CREATE client/src/styles.scss (80 bytes)
+CREATE client/src/assets/.gitkeep (0 bytes)
+CREATE client/src/app/app-routing.module.ts (245 bytes)
+CREATE client/src/app/app.module.ts (393 bytes)
+CREATE client/src/app/app.component.html (23115 bytes)
+CREATE client/src/app/app.component.spec.ts (1073 bytes)
+CREATE client/src/app/app.component.ts (211 bytes)
+CREATE client/src/app/app.component.scss (0 bytes)
+✔ Packages installed successfully.
+    Directory is already under version control. Skipping initialization of git.
+PS C:\Users\gvs\Desktop\skinet> 
