@@ -4,6 +4,20 @@ using Microsoft.EntityFrameworkCore;
 using API.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
+/*Added My self this code*/
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAngularOrigins",
+    builder =>
+    {
+        builder.WithOrigins(
+                            "http://localhost:4200"
+                            )
+                            .AllowAnyHeader()
+                            .AllowAnyMethod();
+    });
+});
+/*Added My self this code*/
 
 // Add services to the container.
 
@@ -11,6 +25,9 @@ builder.Services.AddControllers();
 builder.Services.AddApplicationServices(builder.Configuration);
 
 var app = builder.Build();
+/*Added My self this code*/
+app.UseCors("AllowAngularOrigins");
+/*Added My self this code*/
 
 // Configure the HTTP request pipeline.
 app.UseMiddleware<ExceptionMiddleware>();
