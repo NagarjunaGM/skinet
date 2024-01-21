@@ -27,6 +27,7 @@ builder.Services.AddCors(options =>
 builder.Services.AddControllers();
 builder.Services.AddApplicationServices(builder.Configuration);
 builder.Services.AddIdentityServices(builder.Configuration);
+//builder.Services.AddSwaggerDocumentation(); commented because the AddSwaggerDocumentation is not available
 
 var app = builder.Build();
 /*Added My self this code*/
@@ -36,10 +37,10 @@ app.UseCors("AllowAngularOrigins");
 // Configure the HTTP request pipeline.
 app.UseMiddleware<ExceptionMiddleware>();
 app.UseStatusCodePagesWithReExecute("/errors/{0}");
+//app.UseSwaggerDocumentation(); this method is not contained
 //if (app.Environment.IsDevelopment())
 //{
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    
 //}
 
 app.UseStaticFiles();
